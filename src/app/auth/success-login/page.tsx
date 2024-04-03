@@ -7,7 +7,6 @@ function SuccessLoginPage() {
     const { user, isLoaded, isSignedIn } = useUser();
 
     const origin = localStorage.getItem("origin");
-    console.log("origin", origin, user);
 
     useEffect(() => {
         if (window.opener && !window.opener.closed && isLoaded && user && origin) {
