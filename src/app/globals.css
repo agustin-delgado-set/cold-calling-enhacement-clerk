@@ -10,12 +10,34 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: white;
+}
+
+.cl-card {
+  box-shadow: none;
+}
+
+.cl-internal-fu73ob{
+  display: none;
+}
+
+.cl-headerSubtitle::before {
+  content: 'to continue to Cold Calling Enhacement';
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.cl-headerSubtitle {
+  font-size: 0;
+  visibility: visible;
+}
+
+.cl-logoBox {
+  background-image: url('https://assets-global.website-files.com/61c515061446194a9d658e38/63df4bab2ae9b08c0bd18e6e_leadmagiclogo-p-500.webp');
+  width: 50%;
+  height: 58px;
+  background-size: cover;
+  background-position: center;
 }
 
 @layer utilities {
